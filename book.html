@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+    <link rel="stylesheet" href="bookstyle.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>Booksky</h1>
+    </div>
+    <div class="container">
+        <marquee direction="right"><h1 style="color: blue;">satheesh full stack web devaloper</h1></marquee>
+        <marquee><h1>Booksky Short Notes</h1></marquee>
+        <div class="book-container">
+            <h2>
+                Rich dad poor dad
+            </h2>
+            <h3>Robert</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sed perspiciatis, reprehenderit
+                quae nam corporis perferendis autem unde, quaerat eum, quibusdam magnam? Blanditiis error, consequuntur
+                reprehenderit asperiores earum assumenda quisquam.</p>
+                <button onclick="deletebook(event)" >delete</button>
+            </div>
+        </div>
+    
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add book</h2>
+        <form>
+            <input type="text" placeholder="book title" id="book-title-input">
+            <input type="text" placeholder="book author" id="book-author-input">
+            <textarea placeholder="short description" id="book-description-input"></textarea>
+            <button id="add-book">add</button>
+            <button id="cancel-popup">cancel</button>
+        </form>
+    </div>
+                          
+
+
+
+
+    <button class="add-button" id="add-popup-button">+</button>
+
+
+
+
+
+
+
+    <script src="bookscript.js"></script>
+</body>
+
+</html>
